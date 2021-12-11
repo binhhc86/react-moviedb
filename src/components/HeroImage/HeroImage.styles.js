@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
     url('${props.image}'), var(--darkGrey)`};
   background-size: 100%, cover;
   background-position: center;
-  height: 600px;
+  height: 800px;
   position: relative;
   animation: animateHeroimage 1s;
 
