@@ -23,8 +23,7 @@ export const Wrapper = styled.div`
 
 export const Content = styled.div`
   display: flex;
-  max-width: 1280px;
-
+  max-width: var(--maxWidth);
   margin: 0 auto;
   background: rgb(0, 0, 0, 0.7);
   border-radius: 20px;
@@ -41,7 +40,7 @@ export const Text = styled.div`
   color: var(--white);
   overflow: hidden;
 
-  .rating-director {
+  .rating-directors {
     display: flex;
     justify-content: flex-start;
   }
@@ -55,8 +54,8 @@ export const Text = styled.div`
     background: #fff;
     color: #000;
     font-weight: 800;
-    border-radius: 25px;
-    margin: 0px 0 0 0;
+    border-radius: 50%;
+    margin: 0;
   }
 
   .director {
